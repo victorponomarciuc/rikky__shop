@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -162,6 +163,7 @@
   font-size: 18px;
   line-height: 21px;
   color: #6f6f6f;
+  margin-top: 10px;
 }
 
 .order__money {
@@ -348,14 +350,227 @@
 }
 
 .paid {
-  color: #0a9f07;
+  color: #0a9f07 !important;
 }
 
 .no__paid {
-  color: #3576F3;
+  color: #3576f3 !important;
+}
+
+.pending {
+  color: #f38300 !important;
 }
 
 .status__img {
   width: 10px;
   height: 10px;
+}
+
+.issue {
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 3%;
+  padding: 15px;
+}
+
+.functional__buton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  border-bottom: 1px solid #9f9f9f57;
+}
+
+.exit__btn {
+  width: 15px;
+  height: 15px;
+  text-decoration: none;
+}
+
+.number__order {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-align: center;
+}
+
+.none__dsp {
+  width: 15px;
+  height: 15px;
+}
+
+.info__order {
+  border-bottom: 1px solid #9f9f9f57;
+  padding: 20px 0;
+}
+
+.inline__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.order__descriprion {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #434343;
+  margin-top: 10px;
+}
+
+.more__description {
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.order__list {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.element__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.element__list-img {
+  width: 80px;
+  height: 80px;
+}
+
+.element__list-description {
+  width: 100%;
+  height: 80px;
+  padding-left: 10px;
+}
+
+.order__list-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.order__list-title::after {
+  content: " x3";
+  color: #9f9f9f;
+}
+
+.order__list-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.cheked {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.myForm1 {
+  position: relative;
+}
+
+.myForm1 input {
+  display: none;
+}
+
+.myForm1 label {
+  float: left;
+  line-height: 1.4;
+}
+
+.myForm1 label::before {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #9f9f9f;
+  background-color: #9f9f9f;
+  border-radius: 5px;
+  content: "";
+  float: left;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.myForm1 input[type="checkbox"]:checked + label::after {
+  display: block;
+}
+
+.myForm1 label::after {
+  width: 20px;
+  height: 20px;
+  display: none;
+  top: -5;
+  left: 10px;
+  content: "✔";
+  color: #fff;
+  position: absolute;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #f38300;
+  background-color: #f38300;
+  text-align: center;
+}
+
+.button__order {
+  width: 100%;
+  height: 50px;
+  background: #ff9f15;
+  -webkit-box-shadow: 0px 0px 5px rgba(255, 159, 21, 0.1);
+          box-shadow: 0px 0px 5px rgba(255, 159, 21, 0.1);
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  opacity: 0.4;
+  border: none;
+  margin-top: 20px;
+}
+
+@media (max-width: 400px) {
+  .inline__info {
+    display: block;
+    margin: 20px 0;
+  }
 }

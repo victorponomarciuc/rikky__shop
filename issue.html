@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Касса и выдача</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/scss/style.scss">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="background-color: rgba(250, 235, 215, 0.26);">
+    <section class="issue">
+        <div class="functional__buton">
+            <a href="#" class="exit__btn"><img src="assets/images/Vector.png" alt=""></a>
+            <p class="number__order">No 0000027</p>
+            <div class="none__dsp"></div>
+        </div>
+        <div class="info__order">
+            <div class="inline__info">
+                <p class="order__title ">Имя:</p>
+                <p class="order__descriprion">Айбелив Айкенфлаевич</p>
+            </div>
+            <div class="inline__info">
+                <p class="order__title ">Телефон:</p>
+                <p class="order__descriprion">+79998887765</p>
+            </div>
+        </div>
+        <div class="info__order">
+            <p class="order__title ">Комментарий оставленный к заказу:</p>
+            <p class="order__descriprion more__description">Мне нужен 46 размер кроссовок, цвет
+                оранжевый с чёрным, забирать приду
+                сегодня вечером</p>
+        </div>
+        <div class="info__order">
+            <div class="inline__info">
+                <p class="order__title ">Цена:</p>
+                <p class="order__descriprion">1 000 000 Руб.</p>
+            </div>
+            <div class="inline__info">
+                <p class="order__title ">Оплата:</p>
+                <p class="order__descriprion paid">Произведена</p>
+            </div>
+            <div class="inline__info">
+                <p class="order__title ">Дата оформления:</p>
+                <p class="order__descriprion">01.03.2020 в 11:33</p>
+            </div>
+            <div class="inline__info">
+                <p class="order__title ">Подтверждение звонком:</p>
+                <p class="order__descriprion paid">Было</p>
+            </div>
+            <div class="inline__info">
+                <p class="order__title ">Состояние заказа:</p>
+                <p class="order__descriprion pending ">Ожидает сборки</p>
+            </div>
+        </div>
+        <div class="order__list">
+            <div class="element__list">
+                <img class="element__list-img" src="assets/images/Rectangle 3.png" alt="">
+                <div class="element__list-description">
+                    <div class="cheked">
+                        <p id="addedorder" class="order__list-title">Nike Airmax</p>
+                        <form class="myForm1" action="#">
+                            <input type="checkbox" name="myCheckBox" id="checkbox1">
+                            <label for="checkbox1"></label>
+                        </form>
+                    </div>
+                    <p class="order__list-description">Стеллаж 12 полка 3</p>
+                </div>
+            </div>
+        </div>
+        <div class="order__list">
+            <div class="element__list">
+                <img class="element__list-img" src="assets/images/Rectangle 3.png" alt="">
+                <div class="element__list-description">
+                    <div class="cheked">
+                        <p id="addedorder" class="order__list-title">Nike Airmax</p>
+                        <form class="myForm1" action="#">
+                            <input type="checkbox" name="myCheckBox" id="checkbox2">
+                            <label for="checkbox2"></label>
+                        </form>
+                    </div>
+                    <p class="order__list-description">Стеллаж 12 полка 3</p>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="button__order"> Выдать заказ </button>
+    </section>
+</body>
+
+</html>
