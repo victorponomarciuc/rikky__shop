@@ -1,0 +1,1 @@
+# rikky__shop
