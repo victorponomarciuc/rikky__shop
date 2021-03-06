@@ -213,15 +213,21 @@
   border-top: 1px solid #9f9f9f57;
 }
 
+.order__img {
+  background-image: url(../images/Rectangle_3.png);
+  width: 80px;
+  height: 80px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .img__order {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  background-image: url(../images/Rectangle_46.png);
+  width: 70px;
+  height: 75px;
+  background-position: 50% 50%;
+  background-repeat: space;
 }
 
 .images__order {
@@ -361,6 +367,10 @@
 }
 
 .status__img {
+  background-image: url(../images/Group_359.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 10px;
   height: 10px;
 }
@@ -453,11 +463,6 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-}
-
-.element__list-img {
-  width: 80px;
-  height: 80px;
 }
 
 .element__list-description {

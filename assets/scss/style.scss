@@ -160,11 +160,20 @@
   padding: 15px 0;
   border-top: 1px solid #9f9f9f57;
 }
-
+.order__img{
+  background-image: url(../images/Rectangle_3.png);
+  width: 80px;
+  height: 80px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .img__order {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  background-image: url(../images/Rectangle_46.png);
+  width: 70px;
+  height: 75px;
+  background-position: 50% 50%;
+  background-repeat: space;
 }
 .images__order {
   display: flex;
@@ -256,6 +265,10 @@
   color: #f38300 !important;
 }
 .status__img {
+  background-image: url(../images/Group_359.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 10px;
   height: 10px;
 }
@@ -321,10 +334,6 @@
 .element__list {
   display: flex;
   width: 100%;
-}
-.element__list-img {
-  width: 80px;
-  height: 80px;
 }
 .element__list-description {
   width: 100%;
