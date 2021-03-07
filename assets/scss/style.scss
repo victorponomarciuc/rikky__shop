@@ -178,11 +178,20 @@
   height: 20px;
 }
 .img__order {
+  width: 80px;
+  height: 80px;
+  align-items: center;
+}
+.order__photo{
   background-image: url(../images/Rectangle_46.png);
-  width: 70px;
-  height: 75px;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-  background-repeat: space;
+  border-radius: 5px;
+  float: left;
+  margin: 3px;
 }
 .images__order {
   display: flex;
@@ -282,13 +291,20 @@
 .pending {
   color: #f38300 !important;
 }
-.status__img {
-  background-image: url(../images/Group_359.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 10px;
-  height: 10px;
+.status {
+  width: 7px;
+  height: 7px;
+  background-color: #0a9f07;
+  border-radius: 50%;
+}
+.status__radius{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #0a9f07;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .issue {
   width: 90%;
@@ -391,7 +407,7 @@
 
   .cashbox__order {
     box-sizing: border-box;
-    width: 75%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     padding: 15px 0;
