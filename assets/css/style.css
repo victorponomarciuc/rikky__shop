@@ -202,6 +202,8 @@
 }
 
 .cashbox__order {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -342,6 +344,11 @@
   font-size: 16px;
   line-height: 18px;
   color: #5e5e5e;
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
 }
 
 .status__order {
@@ -585,7 +592,21 @@
 }
 
 @media (max-width: 400px) {
-  .inline__info {
+  .cashbox__order {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 75%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 15px 0;
+    border-top: 1px solid #9f9f9f57;
+  }
+  .o
+.inline__info {
     display: block;
     margin: 20px 0;
   }
