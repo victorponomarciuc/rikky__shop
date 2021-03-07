@@ -168,6 +168,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.refresh_btn{
+  background-image: url(../images/Vector.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
 .img__order {
   background-image: url(../images/Rectangle_46.png);
   width: 70px;
@@ -181,7 +189,6 @@
   width: 40%;
 }
 .basket {
-  width: 30%;
   margin: auto;
   display: flex;
   margin-top: 10px;
@@ -198,7 +205,11 @@
   color: #8a8a8a;
 }
 .basket__img {
-  width: 16x;
+  background-image: url(../images/basket.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 16px;
   height: 16px;
 }
 .left__content {
